@@ -1,14 +1,32 @@
-# SQL Tutorial
-
-Willkommen beim SQL Tutorial zum Thema Stored Procedures in SQL und PL/pgSQL und Trigger.
-
-1. [Einleitung](intro/intro.html)
-2. [SQL Funktionen](programming_sql/syntax.html)
-3. [PL/pgSQL Funktionen](programming_plpgsql/syntax.html)
-4. [Trigger](programming_trigger/syntax.html)
-
-Weitere Quellen zum Thema:
-
-* Die Folien zu Kapitel 5
-* Die [PostgreSQL-Dokumentation](https://www.postgresql.org/docs/9.5/static/server-programming.html)
-* [Wikipedia](https://de.wikipedia.org/wiki/PL/pgSQL)
+# Summary
+* [Startseite](README.md)
+* [Introduction](intro/intro.md)
+* SQL Funktionen
+  * [Syntax und Grundlagen](programming_sql/syntax.md)
+    * [Lösungsvorschläge](programming_sql/syntax_solution.md)
+  * [Parameter](programming_sql/parameter.md)
+    * [Lösungsvorschläge](programming_sql/parameter_solution.md)
+  * [Rückgabetypen](programming_sql/return_types.md)
+    * [Lösungsvorschläge](programming_sql/return_types_solution.md)
+  * [Mehr Aufgaben](programming_sql/tasks.md)
+    * [Lösungsvorschläge](programming_sql/tasks_solution.md)
+* PL/pgSQL Funktionen
+  * [Syntax und Grundlagen](programming_plpgsql/syntax.md)
+  * [Kontrollfluss](programming_plpgsql/controllflow.md)
+  * [Aufgaben](programming_plpgsql/tasks_1.md)
+    * [Lösungsvorschläge](programming_plpgsql/tasks_1_solution.md)
+    * [Aufgabe](programming_plpgsql/tasks_2.md)
+    * [Lösungsvorschläge](programming_plpgsql/tasks_2_solution.md)
+    * [Aufgabe](programming_plpgsql/tasks_3.md)
+    * [Lösungsvorschläge](programming_plpgsql/tasks_3_solution.md)
+    * [Aufgabe](programming_plpgsql/tasks_4.md)
+    * [Lösungsvorschläge](programming_plpgsql/tasks_4_solution.md)
+* Trigger
+  * [Syntax und Grundlagen](programming_trigger/syntax.md)
+    * [Lösungsvorschläge](programming_trigger/syntax_solution.md)
+  * [OLD und NEW](programming_trigger/old_and_new_1.md)
+    * [Lösungsvorschläge](programming_trigger/old_and_new_1_solution.md)
+  * [OLD und NEW (2)](programming_trigger/old_and_new_2.md)
+    * [Lösungsvorschläge](programming_trigger/old_and_new_2_solution.md)
+  * [Mehr Aufgaben](programming_trigger/task.md)
+    * [Lösungsvorschläge](programming_trigger/task_solution.md)
